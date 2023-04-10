@@ -1,5 +1,9 @@
 <h1 align='center'>🤖 Bot ChatFatura</h1>
 
+<div align='center'>
+  <img src='https://user-images.githubusercontent.com/66874248/230901751-89854f20-23ab-4d50-86a6-28214a4ed4ef.png' alt='logo'/>
+</div>
+
 <h2>Descrição do Projeto</h2>
 <p align='justify'>Este é o repositório do nosso bot para o telegram desenvolvido para a matéria do Centro Universitário do Pará(CESUPA) denominada por Projeto Integrado,
 onde o objetivo deste ano é levar soluções tecnológicas para a Ilha de Cotijuba.</p>
