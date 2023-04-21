@@ -22,6 +22,12 @@ onde o objetivo deste ano é levar soluções tecnológicas para a Ilha de Cotij
 <img src="https://img.shields.io/static/v1?label=Telegram&message=mensagens&color=blue&style=for-the-badge&logo=TELEGRAM"/>
 </div>
 
+<h2>Imagens das Telas</h2>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/66874248/233750141-adf878e9-e935-47a4-9234-877761047a54.png"/>
+<img src="https://user-images.githubusercontent.com/66874248/233750155-d5c583cd-03f0-42a4-8704-cbccdb1d07d2.png"/>
+</div>
+
 <h2>Colaboradores</h2>
 
 <table align="center">
