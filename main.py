@@ -6,12 +6,22 @@ chave_api = '6152742111:AAFzhe-BpRLXQhuRRNi5qO66lPLtI00Apt8'
 
 bot = telebot.TeleBot(chave_api)
 
+@bot.message_handler(commands=['gestao'])
+def gestao(message):
+    excel_url = 'https://1drv.ms/x/s!Avx6BD-7UZhEuSDUwEN4WwWm4wNs?e=45eWKe'
+    texto_do = f'''
+    Segue a planilha de gestão em excel:\n
+    {excel_url}
+    \nA senha para acesso/edição à planilha é "mmib2023"❗❗
+    '''
+    bot.reply_to(message, texto_do)
+
 @bot.message_handler(commands=['gerarNFE'])
 def NFGenerator(message):
     lista_perguntas = [
         'Informe o CPF ou CNPJ de quem fez o serviço!\nSem pontuação!',
         'Informe o CPF ou CNPJ do cliente!\nSem pontuação!',
-        'Quantos itens foram foram oferecidos?\nSepare o preço do produto por "," e o produto por "/".\n Por exemplo:\nNome do Produto , Quantidade do Produto , Valor Unitário / Nome do Produto , Quantidade do Produto , Valor Unitário\nObs.: Os espaços entre os valores são necessários!',
+        'Lista de produtos.\nSepare o preço do produto por "," e o produto por "/".\n Por exemplo:\nNome do Produto , Quantidade do Produto , Valor Unitário / Nome do Produto , Quantidade do Produto , Valor Unitário\nObs.: Os espaços entre os valores são necessários!',
         'Informe o email do cliente que irá receber a nota fiscal na caixa eletrônica de seu email.',
         'Informe o seu email para receber uma cópia.'
     ]
