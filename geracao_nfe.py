@@ -84,8 +84,8 @@ def envio_teste(dados_teste, para, cco):
     # Configurações do servidor de e-mail
     smtp_host = 'smtp.gmail.com'
     smtp_port = 587
-    smtp_username = 'josenonato161@gmail.com'
-    smtp_password = 'dfpzjfxrwukvuxbt'
+    smtp_username = '' # Adicionar email para envio
+    smtp_password = '' # Adicionar senha para envio
 
     # Cria a mensagem de e-mail
     msg = MIMEMultipart()
